@@ -1,0 +1,44 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider IsDarkMode="true"/>
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar ToolBarClass="nav-content">
+        
+        <MudStack Row="true" Spacing="10">
+            <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())"/>
+            <MudStack Spacing="3">
+                <MudText> Jorge Quintana Llitrá </MudText>
+                <MudText> Unity Gameplay Programmer</MudText>
+            </MudStack>
+        </MudStack>
+
+        <MudStack Row="true" Spacing="3">
+            <MudIconButton Href="https://www.linkedin.com/in/jorge-quintana-llitr%C3%A1-00b66017b/" Icon="fas fa-linkedin" />
+            <MudIconButton Href="https://github.com/jorgellitra" Icon="@Icons.Custom.Brands.GitHub" />
+            <MudButton Href="files/CVEnglish" Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.ArrowDownward"
+                       IconColor="Color.Error">Resume</MudButton>
+        </MudStack>
+
+    </MudAppBar>
+    <MudDrawer @bind-Open="@_drawerOpen">
+        <NavMenu/>
+    </MudDrawer>
+    <MudMainContent>
+        <MudContainer Class="mt-5" MaxWidth="MaxWidth.Large">
+            @Body
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
+
+@code {
+    bool _drawerOpen = false;
+
+    void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+}

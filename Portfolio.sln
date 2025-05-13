@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio", "Portfolio\Portfolio.csproj", "{680CBA97-207F-4A86-B783-9EFD00EC9E8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{680CBA97-207F-4A86-B783-9EFD00EC9E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680CBA97-207F-4A86-B783-9EFD00EC9E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680CBA97-207F-4A86-B783-9EFD00EC9E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680CBA97-207F-4A86-B783-9EFD00EC9E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

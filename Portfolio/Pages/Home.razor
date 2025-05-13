@@ -1,0 +1,43 @@
+﻿@page "/"
+
+<PageTitle>Jorge Quintana Llitrá</PageTitle>
+
+<MudStack Row="true" Style="text-align: center; align-items: center;">
+    <MudImage Class="profile" Src="images/yo.jpg" Height="200" Width="200"></MudImage>
+    <MudText Typo="Typo.h4" Class="profile-text"> Game programmer with a focus on systems and gameplay development, 
+        dedicated to writing clean, efficient code and embracing new challenges in game creation. </MudText>
+</MudStack>
+
+<MudGrid>
+    @foreach (var game in games)
+    {
+        <MudItem xs="6" sm="6">
+            <MudCard Class="d-flex align-center justify-center mud-width-full py-8">
+                <MudCardMedia Image="images/door.jpg" Height="200"/>
+                <MudCardContent>
+                    <MudText Typo="Typo.h5">Old Paint</MudText>
+                    <MudText Typo="Typo.body2">Old paint found on a stone house door.</MudText>
+                    <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Share</MudButton>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Learn More</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+    }
+</MudGrid>
+
+@code {
+
+    private List<string> games = [];
+
+    protected override Task OnInitializedAsync()
+    {
+        games.Add("a");
+        games.Add("a");
+        games.Add("a");
+        return base.OnInitializedAsync();
+    }
+
+}
