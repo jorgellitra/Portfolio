@@ -129,6 +129,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
@@ -305,32 +309,32 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\building.mp4",
-      "PackagePath": "staticwebassets\\videos\\building.mp4"
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\buildingv.mp4",
+      "PackagePath": "staticwebassets\\videos\\buildingv.mp4"
     },
     {
-      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\dh.mp4",
-      "PackagePath": "staticwebassets\\videos\\dh.mp4"
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\dhv.mp4",
+      "PackagePath": "staticwebassets\\videos\\dhv.mp4"
     },
     {
-      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\dialogue.mp4",
-      "PackagePath": "staticwebassets\\videos\\dialogue.mp4"
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\dialoguev.mp4",
+      "PackagePath": "staticwebassets\\videos\\dialoguev.mp4"
     },
     {
       "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\fallguys.mp4",
       "PackagePath": "staticwebassets\\videos\\fallguys.mp4"
     },
     {
-      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\pong.mp4",
-      "PackagePath": "staticwebassets\\videos\\pong.mp4"
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\pongv.mp4",
+      "PackagePath": "staticwebassets\\videos\\pongv.mp4"
     },
     {
-      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\procedural.mp4",
-      "PackagePath": "staticwebassets\\videos\\procedural.mp4"
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\proceduralv.mp4",
+      "PackagePath": "staticwebassets\\videos\\proceduralv.mp4"
     },
     {
-      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\rpg.mp4",
-      "PackagePath": "staticwebassets\\videos\\rpg.mp4"
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\rpgv.mp4",
+      "PackagePath": "staticwebassets\\videos\\rpgv.mp4"
     },
     {
       "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr10v.mp4",

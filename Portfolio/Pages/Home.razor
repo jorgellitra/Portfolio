@@ -1,43 +1,75 @@
 ﻿@page "/"
+@using Portfolio.Classes
 
-<PageTitle>Jorge Quintana Llitrá</PageTitle>
+<PageTitle>Jorge Quintana Llitrá | Unity Gameplay Programmer</PageTitle>
 
-<MudStack Row="true" Style="text-align: center; align-items: center;">
-    <MudImage Class="profile" Src="images/yo.jpg" Height="200" Width="200"></MudImage>
-    <MudText Typo="Typo.h4" Class="profile-text"> Game programmer with a focus on systems and gameplay development, 
-        dedicated to writing clean, efficient code and embracing new challenges in game creation. </MudText>
-</MudStack>
+<MudContainer Class="my-5" MaxWidth="MaxWidth.Large">
+    <MudStack Row="true" Style="text-align: center; align-items: center;">
+        <MudImage Class="profile" Src="images/yo.jpg" Height="200" Width="200"></MudImage>
+        <MudText Typo="Typo.h4" Class="profile-text"> Game programmer with a focus on systems and gameplay development, 
+            dedicated to writing clean, efficient code and embracing new challenges in game creation. </MudText>
+    </MudStack>
 
-<MudGrid>
-    @foreach (var game in games)
-    {
-        <MudItem xs="6" sm="6">
-            <MudCard Class="d-flex align-center justify-center mud-width-full py-8">
-                <MudCardMedia Image="images/door.jpg" Height="200"/>
-                <MudCardContent>
-                    <MudText Typo="Typo.h5">Old Paint</MudText>
-                    <MudText Typo="Typo.body2">Old paint found on a stone house door.</MudText>
-                    <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
-                </MudCardContent>
-                <MudCardActions>
-                    <MudButton Variant="Variant.Text" Color="Color.Primary">Share</MudButton>
-                    <MudButton Variant="Variant.Text" Color="Color.Primary">Learn More</MudButton>
-                </MudCardActions>
-            </MudCard>
-        </MudItem>
-    }
-</MudGrid>
+    <MudText Typo="Typo.h2"> Personal Projects</MudText>
+    <MudGrid>
+        <VideoCard List="@(PortfolioData.PersonalProjects)"></VideoCard>
+    </MudGrid>
+</MudContainer>
+
+<MudContainer Class="my-5" MaxWidth="MaxWidth.Large">
+    <MudText Typo="Typo.h2"> Tokio School Projects</MudText>
+    <MudGrid>
+        <VideoCard List="@(PortfolioData.TokioSchool)" ></VideoCard>
+    </MudGrid>
+</MudContainer>
+
+<MudContainer Class="my-5" MaxWidth="MaxWidth.Large">
+    <MudText Typo="Typo.h2"> Educations</MudText>
+    <MudGrid>
+        <EducationCard
+            Title="TOKIO SCHOOL (2023-2025)"
+            Description="Higher Education Diploma with specialization in Gameplay Programming" >
+        </EducationCard>
+        <EducationCard
+            Title="Universidad de Las Palmas de Gran Canaria (2012-2018)"
+            Description="Higher Education Diploma with specialization in Software Developing" >
+        </EducationCard>
+    </MudGrid>
+</MudContainer>
+
+<MudContainer Class="my-5" MaxWidth="MaxWidth.Large">
+    <MudText Typo="Typo.h2"> Technical Experience</MudText>
+    <TechnicalExperience List=@(PortfolioData.TechnicalExperience)></TechnicalExperience>
+</MudContainer>
+
+<div class="information-section">
+    <MudContainer>
+        <MudText Class="information-text" Typo="Typo.h2"><strong>Hi, I'm Jorge</strong></MudText>
+        <div class="information-section-text">
+            <MudText Class="information-text" Typo="Typo.body1">I'm a <strong>software and game developer</strong> with over 6 years of professional experience,
+                currently working at Rising Pixel SL in Las Palmas de Gran Canaria, Spain. My work focuses on full-time
+                <strong>game development</strong>, and I also work as a backend/DevOps developer in some games.</MudText>
+            <MudText Class="information-text" Typo="Typo.body1"> Previously, I worked on a variety of software projects across several companies,
+                including <strong>Symbyosys</strong>, <strong>GRUPO1844</strong>, and <strong>Minsait</strong>, where I gained solid experience in web development,
+                object-oriented programming, and building scalable applications.</MudText>
+            <MudText Class="information-text" Typo="Typo.body1"> I’m passionate about creating software that not only works efficiently
+                but also delivers a great user experience. I enjoy solving technical challenges, continuously learning,
+                and writing clean, maintainable code—whether it’s in <strong>C#</strong>, <strong>Unity</strong>, or full-stack technologies.</MudText>
+            <MudText Class="information-text" Typo="Typo.body1"> If you'd like to get in touch or learn more about my work, feel free to reach out
+                through my resume or social media links.</MudText>
+        </div>
+    </MudContainer>
+</div>
 
 @code {
-
-    private List<string> games = [];
-
-    protected override Task OnInitializedAsync()
+    [Inject] IJSRuntime JS { get; set; }
+    
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        games.Add("a");
-        games.Add("a");
-        games.Add("a");
-        return base.OnInitializedAsync();
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("playAllVideos");
+        }
     }
-
+    
 }

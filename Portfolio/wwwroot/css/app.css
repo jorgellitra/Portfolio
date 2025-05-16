@@ -47,14 +47,14 @@ code {
     min-width: 200px;
     border-width: 4px;
     border-style: solid;
-    border-color: rgb(122, 90, 231);
+    border-color: #B39DDB;
     border-image: initial;
     border-radius: 50%;
     margin: 0px auto 48px;
 }
 
 .profile-text {
-    color: rgb(122, 90, 231);
+    color: #B39DDB;
     text-align: center;
     align-items: center;
 }
@@ -64,3 +64,45 @@ code {
     justify-content: space-between;
 }
 
+.card-video {
+    aspect-ratio: 16 / 9;
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    background-color: rgb(37, 37, 37);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(182, 217, 214);
+}
+
+.technical-experience{
+    color: #B39DDB !important;
+    border-color: #B39DDB !important;
+}
+
+.information-section {
+    background-color: rgb(182, 217, 214);
+    z-index: 0;
+    width: 100vw !important;
+    padding: 20px 0 0;
+}
+
+.information-text {
+    color: black !important;
+}
+
+.information-section-text {
+    padding: 20px 35px 50px;
+}
+
+.education-card {
+    height: 120px;
+}
+
+.linkedin-icon > span {
+    padding: 13px !important;
+}

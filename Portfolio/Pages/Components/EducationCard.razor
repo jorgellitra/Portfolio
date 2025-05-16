@@ -1,0 +1,20 @@
+@using Portfolio.Classes
+
+@inherits LayoutComponentBase
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public string Description { get; set; }
+}
+
+
+<MudItem xs="6" sm="6">
+    <MudCard Class="d-flex align-center justify-center mud-width-full education-card">
+        <MudCardContent Class="w-100">
+            <MudText Typo="Typo.h5">@Title</MudText>
+            <MudText Typo="Typo.body2">@Description</MudText>
+        </MudCardContent>
+    </MudCard>
+</MudItem>

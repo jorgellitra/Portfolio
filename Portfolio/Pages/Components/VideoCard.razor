@@ -1,0 +1,32 @@
+@using Portfolio.Classes
+
+@inherits LayoutComponentBase
+
+@code {
+    [Parameter]
+    public  List<PortfolioItem> List { get; set; }
+}
+
+
+@foreach (var game in List)
+{
+<MudItem xs="6" sm="6">
+    <MudCard Class="d-flex align-center justify-center mud-width-full">
+        @if (!string.IsNullOrEmpty(game.VideoPath))
+        {
+        <div class="card-video">
+            <video class="auto-play-video" loop muted playsinline>
+                <source src=@($"videos/{game.VideoPath}.mp4#t=0.01") type="video/mp4">
+            </video>
+        </div>
+        }
+        <MudCardContent Class="w-100">
+            <MudText Typo="Typo.h5">@game.TitleEN <MudChip T="string">Aaafe</MudChip></MudText>
+            <MudText Typo="Typo.body2">@game.DescriptionEN</MudText>
+        </MudCardContent>
+        @* <MudCardActions> *@
+        @*     <MudButton Href=@($"{game.Path}") Variant="Variant.Text" Color="Color.Primary">Learn More</MudButton> *@
+        @* </MudCardActions> *@
+    </MudCard>
+</MudItem>
+}
