@@ -42,8 +42,6 @@ C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwr
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\MudBlazor.ThemeManager.bhaa8tciji.wasm
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\MudBlazor.bovigzwckz.wasm
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\netstandard.d82br99ghv.wasm
-C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.plk8a3uan6.pdb
-C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.r5gp950tbg.wasm
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\System.AppContext.brstoo7rmv.wasm
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\System.Buffers.y31fti4j86.wasm
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\System.Collections.Concurrent.kb0mdoldj7.wasm
@@ -307,9 +305,7 @@ C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwr
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\System.Security.SecureString.la8q9i6aou.wasm.gz
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\System.Xml.XPath.XDocument.dvarvms6fh.wasm.gz
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.wne6lzve40.wasm.gz
-C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.r5gp950tbg.wasm.gz
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\Microsoft.Extensions.Configuration.8aq32nyru9.wasm.gz
-C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.plk8a3uan6.pdb.gz
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\System.IO.Compression.Brotli.k5ptxcu8oa.wasm.gz
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.ru07a9pbbl.wasm.gz
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\dotnet.native.3c4wvb350q.wasm.gz
@@ -1088,9 +1084,6 @@ C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\comp
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\compressed\gfp5lr8eg2-tjcz0u77k5.gz
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\compressed\oc8e2sy04m-tptq2av103.gz
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\compressed\v7fmk22nqa-lfu7j35m59.gz
-C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\compressed\hrigvdkto3-r5gp950tbg.gz
-C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\compressed\i0zbla0v0v-plk8a3uan6.gz
-C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\compressed\n4srf7eo0m-enqjoa4mmu.gz
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\staticwebassets.build.json
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\staticwebassets.development.json
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\staticwebassets.build.endpoints.json
@@ -1105,3 +1098,10 @@ C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\Port
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\refint\Portfolio.dll
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\Portfolio.pdb
 C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\ref\Portfolio.dll
+C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.9ypf5w1es7.pdb
+C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.ak1rp0ptv0.wasm
+C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.ak1rp0ptv0.wasm.gz
+C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.9ypf5w1es7.pdb.gz
+C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\compressed\hrigvdkto3-ak1rp0ptv0.gz
+C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\compressed\i0zbla0v0v-9ypf5w1es7.gz
+C:\Users\Usuario\Documents\Portfolio\Portfolio\Portfolio\obj\Release\net9.0\compressed\n4srf7eo0m-h3qmzurd46.gz

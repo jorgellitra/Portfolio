@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P95U1/2SjYuIC7CG0iicPOBjyKvwWy5vCDqNi8TzLhs=",
+  "Hash": "Y7xMrKoAI419qF2zBKSczijlVY/FaXIO7h4ZyMZmtUw=",
   "Source": "Portfolio",
   "BasePath": "/",
   "Mode": "Root",
@@ -104,7 +104,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\wwwroot\\_framework\\dotnet.js",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet#[.{fingerprint}]?.js",
       "AssetKind": "Publish",
@@ -125,7 +125,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\wwwroot\\_framework\\dotnet.native.3c4wvb350q.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.native.3c4wvb350q.wasm",
       "AssetKind": "Publish",
@@ -146,7 +146,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\wwwroot\\_framework\\dotnet.native.hvg7u8bimp.js",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.native.hvg7u8bimp.js",
       "AssetKind": "Publish",
@@ -167,7 +167,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\wwwroot\\_framework\\dotnet.runtime.cymp1amu5g.js",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.runtime.cymp1amu5g.js",
       "AssetKind": "Publish",
@@ -188,7 +188,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\wwwroot\\_framework\\icudt_CJK.tjcz0u77k5.dat",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/icudt_CJK.tjcz0u77k5.dat",
       "AssetKind": "Publish",
@@ -209,7 +209,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\wwwroot\\_framework\\icudt_EFIGS.tptq2av103.dat",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/icudt_EFIGS.tptq2av103.dat",
       "AssetKind": "Publish",
@@ -230,7 +230,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\wwwroot\\_framework\\icudt_no_CJK.lfu7j35m59.dat",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/icudt_no_CJK.lfu7j35m59.dat",
       "AssetKind": "Publish",
@@ -251,7 +251,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\blazor.publish.boot.json",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/blazor.boot.json",
       "AssetKind": "Publish",
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "a8nn6ziwyn",
-      "Integrity": "ptjbytuNpym0fp+NhmZuIihBkawU4Ti7HWqW1sy6bgg=",
+      "Fingerprint": "54r1qxuwe9",
+      "Integrity": "hZ2ovSMoqH9BXaSB+TOQf7oW09rxMDSCzxlcxyk/QNg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "obj\\Release\\net9.0\\blazor.publish.boot.json"
@@ -356,7 +356,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\21wzh9898e-ffzrnftong.gz",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet#[.{fingerprint=ffzrnftong}]?.js.gz",
       "AssetKind": "Publish",
@@ -419,7 +419,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\2xl6nfxnof-cymp1amu5g.gz",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.runtime#[.{fingerprint=cymp1amu5g}]!.js.gz",
       "AssetKind": "Publish",
@@ -923,7 +923,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\iim8i0tnv6-3c4wvb350q.gz",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.native#[.{fingerprint=3c4wvb350q}]!.wasm.gz",
       "AssetKind": "Publish",
@@ -3713,7 +3713,7 @@
       "OriginalItemSpec": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\v7bxl7a898-a8nn6ziwyn.br",
+      "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\v7bxl7a898-54r1qxuwe9.br",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\",
@@ -3727,14 +3727,14 @@
       "RelatedAsset": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\blazor.publish.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "dicra7fztq",
-      "Integrity": "Fe6nj8Ipew5Td3iQuHrYcPQ5nsxn03XjCjl9wjPUfiI=",
+      "Fingerprint": "51w29csq26",
+      "Integrity": "V1iV5SiF+P+K4tuuYhK+ZMidaz4Frx9YK4mUcQAHF0I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\blazor.publish.boot.json"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\v7bxl7a898-a8nn6ziwyn.gz",
+      "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\v7bxl7a898-54r1qxuwe9.gz",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\",
@@ -3748,8 +3748,8 @@
       "RelatedAsset": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\blazor.publish.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cv19cj8cdy",
-      "Integrity": "uKnML0TDKN1LGViV1sOY0qMz+I2lpW44Dx7KQQXyAvQ=",
+      "Fingerprint": "to5xffgtj3",
+      "Integrity": "8xk7IcYmyXepwLNeOb2XFwGRFeUYRNYqHxDzmaiMg4w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\blazor.publish.boot.json"
@@ -3839,12 +3839,12 @@
       "OriginalItemSpec": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\wwwroot\\_framework\\dotnet.runtime.cymp1amu5g.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-r5gp950tbg.br",
+      "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-ak1rp0ptv0.br",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Portfolio#[.{fingerprint=r5gp950tbg}]!.wasm.br",
+      "RelativePath": "_framework/Portfolio#[.{fingerprint=ak1rp0ptv0}]!.wasm.br",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3853,19 +3853,19 @@
       "RelatedAsset": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Portfolio.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "j36642xzbq",
-      "Integrity": "of/oMrXXYoWdMC8jOLnXakpn0dvcb5ffEKmoOZzKXl0=",
+      "Fingerprint": "0sq05zg16z",
+      "Integrity": "kFhWK4kz+FxZPolW1FRDkr6uw/XBpBkuV3pmfUc1Vhk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Portfolio.wasm"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-r5gp950tbg.gz",
+      "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-ak1rp0ptv0.gz",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Portfolio#[.{fingerprint=r5gp950tbg}]!.wasm.gz",
+      "RelativePath": "_framework/Portfolio#[.{fingerprint=ak1rp0ptv0}]!.wasm.gz",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3874,8 +3874,8 @@
       "RelatedAsset": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Portfolio.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "564hmj5y4q",
-      "Integrity": "XQF2O65bE7RrRsCZfbG7/D9DrIu38HpeA5ociXlyQLw=",
+      "Fingerprint": "jzgmwyc3rb",
+      "Integrity": "f2fkQxmaMlJBpvZ04PsxntMXl6apJbRYUQ1y9Up4p8I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Portfolio.wasm"
@@ -4115,7 +4115,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\qujnmp441m-hvg7u8bimp.gz",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.native#[.{fingerprint=hvg7u8bimp}]!.js.gz",
       "AssetKind": "Publish",
@@ -4388,7 +4388,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.AspNetCore.Components.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.AspNetCore.Components#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4409,7 +4409,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.AspNetCore.Components.Web.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4430,7 +4430,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.AspNetCore.Components.WebAssembly.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4451,7 +4451,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.Extensions.Configuration.Abstractions.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Configuration.Abstractions#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4472,7 +4472,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.Extensions.Configuration.Json.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Configuration.Json#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4493,7 +4493,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.Extensions.Configuration.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Configuration#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4514,7 +4514,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.Extensions.DependencyInjection.Abstractions.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4535,7 +4535,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.Extensions.DependencyInjection.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4556,7 +4556,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.Extensions.Localization.Abstractions.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4577,7 +4577,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.Extensions.Localization.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Localization#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4598,7 +4598,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.Extensions.Logging.Abstractions.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4619,7 +4619,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.Extensions.Logging.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Logging#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4640,7 +4640,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.Extensions.Options.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Options#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4661,7 +4661,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.Extensions.Primitives.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Primitives#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4682,7 +4682,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.JSInterop.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.JSInterop#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4703,7 +4703,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Microsoft.JSInterop.WebAssembly.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4724,7 +4724,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\MudBlazor.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/MudBlazor#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4745,7 +4745,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Portfolio.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Portfolio#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4756,8 +4756,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "r5gp950tbg",
-      "Integrity": "8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo=",
+      "Fingerprint": "ak1rp0ptv0",
+      "Integrity": "Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Portfolio.wasm"
@@ -4766,7 +4766,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Collections.Concurrent.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Collections.Concurrent#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4787,7 +4787,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Collections.Immutable.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Collections.Immutable#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4808,7 +4808,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Collections.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Collections#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4829,7 +4829,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.ComponentModel.Primitives.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.ComponentModel.Primitives#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4850,7 +4850,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.ComponentModel.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.ComponentModel#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4871,7 +4871,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Console.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Console#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4892,7 +4892,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.IO.Pipelines.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.IO.Pipelines#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4913,7 +4913,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Linq.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Linq#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4934,7 +4934,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Memory.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Memory#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4955,7 +4955,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Net.Http.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Net.Http#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4976,7 +4976,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Net.Primitives.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Net.Primitives#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4997,7 +4997,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Private.CoreLib.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Private.CoreLib#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5018,7 +5018,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Private.Uri.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Private.Uri#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5039,7 +5039,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Runtime.InteropServices.JavaScript.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Runtime.InteropServices.JavaScript#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5060,7 +5060,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Runtime.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Runtime#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5081,7 +5081,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Text.Encodings.Web.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Text.Encodings.Web#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5102,7 +5102,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Text.Json.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Text.Json#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5123,7 +5123,7 @@
       "Identity": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\System.Text.RegularExpressions.wasm",
       "SourceId": "Portfolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\publish\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Text.RegularExpressions#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -7981,11 +7981,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ptjbytuNpym0fp+NhmZuIihBkawU4Ti7HWqW1sy6bgg=\""
+          "Value": "\"hZ2ovSMoqH9BXaSB+TOQf7oW09rxMDSCzxlcxyk/QNg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:16 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7995,18 +7995,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ptjbytuNpym0fp+NhmZuIihBkawU4Ti7HWqW1sy6bgg="
+          "Value": "sha256-hZ2ovSMoqH9BXaSB+TOQf7oW09rxMDSCzxlcxyk/QNg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\v7bxl7a898-a8nn6ziwyn.br",
+      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\v7bxl7a898-54r1qxuwe9.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000377358491"
+          "Quality": "0.000377786173"
         }
       ],
       "ResponseHeaders": [
@@ -8016,15 +8016,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2649"
+          "Value": "2646"
         },
         {
           "Name": "ETag",
-          "Value": "\"Fe6nj8Ipew5Td3iQuHrYcPQ5nsxn03XjCjl9wjPUfiI=\""
+          "Value": "\"V1iV5SiF+P+K4tuuYhK+ZMidaz4Frx9YK4mUcQAHF0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:16 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8044,24 +8044,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ptjbytuNpym0fp+NhmZuIihBkawU4Ti7HWqW1sy6bgg=\""
+          "Value": "W/\"hZ2ovSMoqH9BXaSB+TOQf7oW09rxMDSCzxlcxyk/QNg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ptjbytuNpym0fp+NhmZuIihBkawU4Ti7HWqW1sy6bgg="
+          "Value": "sha256-hZ2ovSMoqH9BXaSB+TOQf7oW09rxMDSCzxlcxyk/QNg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\v7bxl7a898-a8nn6ziwyn.gz",
+      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\v7bxl7a898-54r1qxuwe9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000346740638"
+          "Quality": "0.000346860909"
         }
       ],
       "ResponseHeaders": [
@@ -8071,15 +8071,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2883"
+          "Value": "2882"
         },
         {
           "Name": "ETag",
-          "Value": "\"uKnML0TDKN1LGViV1sOY0qMz+I2lpW44Dx7KQQXyAvQ=\""
+          "Value": "\"8xk7IcYmyXepwLNeOb2XFwGRFeUYRNYqHxDzmaiMg4w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:16 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8099,19 +8099,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ptjbytuNpym0fp+NhmZuIihBkawU4Ti7HWqW1sy6bgg=\""
+          "Value": "W/\"hZ2ovSMoqH9BXaSB+TOQf7oW09rxMDSCzxlcxyk/QNg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ptjbytuNpym0fp+NhmZuIihBkawU4Ti7HWqW1sy6bgg="
+          "Value": "sha256-hZ2ovSMoqH9BXaSB+TOQf7oW09rxMDSCzxlcxyk/QNg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.br",
-      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\v7bxl7a898-a8nn6ziwyn.br",
+      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\v7bxl7a898-54r1qxuwe9.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8120,7 +8120,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2649"
+          "Value": "2646"
         },
         {
           "Name": "Content-Type",
@@ -8128,11 +8128,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Fe6nj8Ipew5Td3iQuHrYcPQ5nsxn03XjCjl9wjPUfiI=\""
+          "Value": "\"V1iV5SiF+P+K4tuuYhK+ZMidaz4Frx9YK4mUcQAHF0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:16 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8150,13 +8150,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Fe6nj8Ipew5Td3iQuHrYcPQ5nsxn03XjCjl9wjPUfiI="
+          "Value": "sha256-V1iV5SiF+P+K4tuuYhK+ZMidaz4Frx9YK4mUcQAHF0I="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\v7bxl7a898-a8nn6ziwyn.gz",
+      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\v7bxl7a898-54r1qxuwe9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8165,7 +8165,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2883"
+          "Value": "2882"
         },
         {
           "Name": "Content-Type",
@@ -8173,11 +8173,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uKnML0TDKN1LGViV1sOY0qMz+I2lpW44Dx7KQQXyAvQ=\""
+          "Value": "\"8xk7IcYmyXepwLNeOb2XFwGRFeUYRNYqHxDzmaiMg4w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:16 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8195,7 +8195,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uKnML0TDKN1LGViV1sOY0qMz+I2lpW44Dx7KQQXyAvQ="
+          "Value": "sha256-8xk7IcYmyXepwLNeOb2XFwGRFeUYRNYqHxDzmaiMg4w="
         }
       ]
     },
@@ -8316,7 +8316,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:09 GMT"
+          "Value": "Fri, 14 Mar 2025 17:04:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8414,7 +8414,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:09 GMT"
+          "Value": "Fri, 14 Mar 2025 17:04:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8506,7 +8506,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:09 GMT"
+          "Value": "Thu, 13 Mar 2025 22:25:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8683,7 +8683,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:09 GMT"
+          "Value": "Thu, 13 Mar 2025 22:25:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8775,7 +8775,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:09 GMT"
+          "Value": "Thu, 13 Mar 2025 22:25:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8928,7 +8928,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:09 GMT"
+          "Value": "Thu, 13 Mar 2025 22:25:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19435,13 +19435,13 @@
       ]
     },
     {
-      "Route": "_framework/Portfolio.r5gp950tbg.wasm",
-      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-r5gp950tbg.br",
+      "Route": "_framework/Portfolio.ak1rp0ptv0.wasm",
+      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-ak1rp0ptv0.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000052105044"
+          "Quality": "0.000051813472"
         }
       ],
       "ResponseHeaders": [
@@ -19451,15 +19451,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19191"
+          "Value": "19299"
         },
         {
           "Name": "ETag",
-          "Value": "\"of/oMrXXYoWdMC8jOLnXakpn0dvcb5ffEKmoOZzKXl0=\""
+          "Value": "\"kFhWK4kz+FxZPolW1FRDkr6uw/XBpBkuV3pmfUc1Vhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:15 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19479,13 +19479,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo=\""
+          "Value": "W/\"Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r5gp950tbg"
+          "Value": "ak1rp0ptv0"
         },
         {
           "Name": "label",
@@ -19493,18 +19493,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo="
+          "Value": "sha256-Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII="
         }
       ]
     },
     {
-      "Route": "_framework/Portfolio.r5gp950tbg.wasm",
-      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-r5gp950tbg.gz",
+      "Route": "_framework/Portfolio.ak1rp0ptv0.wasm",
+      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-ak1rp0ptv0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000043248854"
+          "Quality": "0.000043243243"
         }
       ],
       "ResponseHeaders": [
@@ -19514,15 +19514,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23121"
+          "Value": "23124"
         },
         {
           "Name": "ETag",
-          "Value": "\"XQF2O65bE7RrRsCZfbG7/D9DrIu38HpeA5ociXlyQLw=\""
+          "Value": "\"f2fkQxmaMlJBpvZ04PsxntMXl6apJbRYUQ1y9Up4p8I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:15 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19542,13 +19542,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo=\""
+          "Value": "W/\"Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r5gp950tbg"
+          "Value": "ak1rp0ptv0"
         },
         {
           "Name": "label",
@@ -19556,12 +19556,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo="
+          "Value": "sha256-Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII="
         }
       ]
     },
     {
-      "Route": "_framework/Portfolio.r5gp950tbg.wasm",
+      "Route": "_framework/Portfolio.ak1rp0ptv0.wasm",
       "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\webcil\\publish\\Portfolio.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -19579,11 +19579,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo=\""
+          "Value": "\"Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:15 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19593,7 +19593,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r5gp950tbg"
+          "Value": "ak1rp0ptv0"
         },
         {
           "Name": "label",
@@ -19601,13 +19601,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo="
+          "Value": "sha256-Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII="
         }
       ]
     },
     {
-      "Route": "_framework/Portfolio.r5gp950tbg.wasm.br",
-      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-r5gp950tbg.br",
+      "Route": "_framework/Portfolio.ak1rp0ptv0.wasm.br",
+      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-ak1rp0ptv0.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -19616,7 +19616,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19191"
+          "Value": "19299"
         },
         {
           "Name": "Content-Type",
@@ -19624,11 +19624,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"of/oMrXXYoWdMC8jOLnXakpn0dvcb5ffEKmoOZzKXl0=\""
+          "Value": "\"kFhWK4kz+FxZPolW1FRDkr6uw/XBpBkuV3pmfUc1Vhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:15 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19646,7 +19646,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r5gp950tbg"
+          "Value": "ak1rp0ptv0"
         },
         {
           "Name": "label",
@@ -19654,13 +19654,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-of/oMrXXYoWdMC8jOLnXakpn0dvcb5ffEKmoOZzKXl0="
+          "Value": "sha256-kFhWK4kz+FxZPolW1FRDkr6uw/XBpBkuV3pmfUc1Vhk="
         }
       ]
     },
     {
-      "Route": "_framework/Portfolio.r5gp950tbg.wasm.gz",
-      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-r5gp950tbg.gz",
+      "Route": "_framework/Portfolio.ak1rp0ptv0.wasm.gz",
+      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-ak1rp0ptv0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -19669,7 +19669,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23121"
+          "Value": "23124"
         },
         {
           "Name": "Content-Type",
@@ -19677,11 +19677,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XQF2O65bE7RrRsCZfbG7/D9DrIu38HpeA5ociXlyQLw=\""
+          "Value": "\"f2fkQxmaMlJBpvZ04PsxntMXl6apJbRYUQ1y9Up4p8I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:15 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19699,7 +19699,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r5gp950tbg"
+          "Value": "ak1rp0ptv0"
         },
         {
           "Name": "label",
@@ -19707,18 +19707,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XQF2O65bE7RrRsCZfbG7/D9DrIu38HpeA5ociXlyQLw="
+          "Value": "sha256-f2fkQxmaMlJBpvZ04PsxntMXl6apJbRYUQ1y9Up4p8I="
         }
       ]
     },
     {
       "Route": "_framework/Portfolio.wasm",
-      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-r5gp950tbg.br",
+      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-ak1rp0ptv0.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000052105044"
+          "Quality": "0.000051813472"
         }
       ],
       "ResponseHeaders": [
@@ -19728,15 +19728,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19191"
+          "Value": "19299"
         },
         {
           "Name": "ETag",
-          "Value": "\"of/oMrXXYoWdMC8jOLnXakpn0dvcb5ffEKmoOZzKXl0=\""
+          "Value": "\"kFhWK4kz+FxZPolW1FRDkr6uw/XBpBkuV3pmfUc1Vhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:15 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19756,24 +19756,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo=\""
+          "Value": "W/\"Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo="
+          "Value": "sha256-Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII="
         }
       ]
     },
     {
       "Route": "_framework/Portfolio.wasm",
-      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-r5gp950tbg.gz",
+      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-ak1rp0ptv0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000043248854"
+          "Quality": "0.000043243243"
         }
       ],
       "ResponseHeaders": [
@@ -19783,15 +19783,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23121"
+          "Value": "23124"
         },
         {
           "Name": "ETag",
-          "Value": "\"XQF2O65bE7RrRsCZfbG7/D9DrIu38HpeA5ociXlyQLw=\""
+          "Value": "\"f2fkQxmaMlJBpvZ04PsxntMXl6apJbRYUQ1y9Up4p8I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:15 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19811,13 +19811,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo=\""
+          "Value": "W/\"Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo="
+          "Value": "sha256-Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII="
         }
       ]
     },
@@ -19840,11 +19840,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo=\""
+          "Value": "\"Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:15 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19854,13 +19854,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8cRJe6lehkvASwaESJYf6tYW9Rp1wp5Bm1cU1z0lAxo="
+          "Value": "sha256-Vjb3y2T/uYyGxg5MNfb+VcfGE0WkNL0VvNM02KRbRII="
         }
       ]
     },
     {
       "Route": "_framework/Portfolio.wasm.br",
-      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-r5gp950tbg.br",
+      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-ak1rp0ptv0.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -19869,7 +19869,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19191"
+          "Value": "19299"
         },
         {
           "Name": "Content-Type",
@@ -19877,11 +19877,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"of/oMrXXYoWdMC8jOLnXakpn0dvcb5ffEKmoOZzKXl0=\""
+          "Value": "\"kFhWK4kz+FxZPolW1FRDkr6uw/XBpBkuV3pmfUc1Vhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:15 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19899,13 +19899,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-of/oMrXXYoWdMC8jOLnXakpn0dvcb5ffEKmoOZzKXl0="
+          "Value": "sha256-kFhWK4kz+FxZPolW1FRDkr6uw/XBpBkuV3pmfUc1Vhk="
         }
       ]
     },
     {
       "Route": "_framework/Portfolio.wasm.gz",
-      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-r5gp950tbg.gz",
+      "AssetFile": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\compressed\\publish\\wmpxcs7lzr-ak1rp0ptv0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -19914,7 +19914,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23121"
+          "Value": "23124"
         },
         {
           "Name": "Content-Type",
@@ -19922,11 +19922,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XQF2O65bE7RrRsCZfbG7/D9DrIu38HpeA5ociXlyQLw=\""
+          "Value": "\"f2fkQxmaMlJBpvZ04PsxntMXl6apJbRYUQ1y9Up4p8I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:34:15 GMT"
+          "Value": "Fri, 16 May 2025 14:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19944,7 +19944,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XQF2O65bE7RrRsCZfbG7/D9DrIu38HpeA5ociXlyQLw="
+          "Value": "sha256-f2fkQxmaMlJBpvZ04PsxntMXl6apJbRYUQ1y9Up4p8I="
         }
       ]
     },
