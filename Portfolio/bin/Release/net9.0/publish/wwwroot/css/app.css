@@ -1,0 +1,108 @@
+.loading-progress {
+    position: relative;
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    margin: 20vh auto 1rem auto;
+}
+
+.loading-progress circle {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 0.6rem;
+    transform-origin: 50% 50%;
+    transform: rotate(-90deg);
+}
+
+.loading-progress circle:last-child {
+    stroke: #7959e5;
+    stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
+    transition: stroke-dasharray 0.05s ease-in-out;
+}
+        
+.loading-progress-text {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #7959e5;
+    inset: calc(20vh + 3.25rem) 0 auto 0.2rem;
+}
+
+.loading-background {
+    background: #32333d;
+}
+
+.loading-progress-text:after {
+    content: var(--blazor-load-percentage-text, "Loading");
+}
+
+code {
+    color: #c02d76;
+}
+
+.profile {
+    width: 200px;
+    height: 100%;
+    min-height: 200px;
+    min-width: 200px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #B39DDB;
+    border-image: initial;
+    border-radius: 50%;
+    margin: 0px auto 48px;
+}
+
+.profile-text {
+    color: #B39DDB;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-video {
+    aspect-ratio: 16 / 9;
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    background-color: rgb(37, 37, 37);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(182, 217, 214);
+}
+
+.technical-experience{
+    color: #B39DDB !important;
+    border-color: #B39DDB !important;
+}
+
+.information-section {
+    background-color: rgb(182, 217, 214);
+    z-index: 0;
+    width: 100vw !important;
+    padding: 20px 0 0;
+}
+
+.information-text {
+    color: black !important;
+}
+
+.information-section-text {
+    padding: 20px 35px 50px;
+}
+
+.education-card {
+    height: 120px;
+}
+
+.linkedin-icon > span {
+    padding: 13px !important;
+}

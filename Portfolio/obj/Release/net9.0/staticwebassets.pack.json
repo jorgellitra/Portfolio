@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\bin\\Release\\net9.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\obj\\Release\\net9.0\\scopedcss\\bundle\\Portfolio.styles.css",
+      "PackagePath": "staticwebassets\\Portfolio.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\files\\CVEnglish.pdf",
+      "PackagePath": "staticwebassets\\files\\CVEnglish.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\files\\CVEspanol.pdf",
+      "PackagePath": "staticwebassets\\files\\CVEspanol.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\files\\TFM.pdf",
+      "PackagePath": "staticwebassets\\files\\TFM.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\images\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\building.png",
+      "PackagePath": "staticwebassets\\images\\building.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\dh.png",
+      "PackagePath": "staticwebassets\\images\\dh.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\dialogue.png",
+      "PackagePath": "staticwebassets\\images\\dialogue.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\fguys.png",
+      "PackagePath": "staticwebassets\\images\\fguys.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\pong.png",
+      "PackagePath": "staticwebassets\\images\\pong.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\procedural.png",
+      "PackagePath": "staticwebassets\\images\\procedural.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\rpg.png",
+      "PackagePath": "staticwebassets\\images\\rpg.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\pr10i.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\pr10i.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\pr11i.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\pr11i.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\pr12i.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\pr12i.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\pr1i.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\pr1i.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\pr2i.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\pr2i.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\pr3i.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\pr3i.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\pr4i.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\pr4i.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\pr5i.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\pr5i.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\pr6i.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\pr6i.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\pr7i.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\pr7i.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\pr8i.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\pr8i.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\pr9i.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\pr9i.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\tfmi.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\tfmi.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\tokioschool\\tokio.png",
+      "PackagePath": "staticwebassets\\images\\tokioschool\\tokio.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\images\\yo.jpg",
+      "PackagePath": "staticwebassets\\images\\yo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\buildingv.mp4",
+      "PackagePath": "staticwebassets\\videos\\buildingv.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\dhv.mp4",
+      "PackagePath": "staticwebassets\\videos\\dhv.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\dialoguev.mp4",
+      "PackagePath": "staticwebassets\\videos\\dialoguev.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\fallguys.mp4",
+      "PackagePath": "staticwebassets\\videos\\fallguys.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\pongv.mp4",
+      "PackagePath": "staticwebassets\\videos\\pongv.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\proceduralv.mp4",
+      "PackagePath": "staticwebassets\\videos\\proceduralv.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\rpgv.mp4",
+      "PackagePath": "staticwebassets\\videos\\rpgv.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr10v.mp4",
+      "PackagePath": "staticwebassets\\videos\\tokioschool\\pr10v.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr11v.mp4",
+      "PackagePath": "staticwebassets\\videos\\tokioschool\\pr11v.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr12v.mp4",
+      "PackagePath": "staticwebassets\\videos\\tokioschool\\pr12v.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr1v.mp4",
+      "PackagePath": "staticwebassets\\videos\\tokioschool\\pr1v.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr2v.mp4",
+      "PackagePath": "staticwebassets\\videos\\tokioschool\\pr2v.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr3v.mp4",
+      "PackagePath": "staticwebassets\\videos\\tokioschool\\pr3v.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr4v.mp4",
+      "PackagePath": "staticwebassets\\videos\\tokioschool\\pr4v.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr5v.mp4",
+      "PackagePath": "staticwebassets\\videos\\tokioschool\\pr5v.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr6v.mp4",
+      "PackagePath": "staticwebassets\\videos\\tokioschool\\pr6v.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr7v.mp4",
+      "PackagePath": "staticwebassets\\videos\\tokioschool\\pr7v.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr8v.mp4",
+      "PackagePath": "staticwebassets\\videos\\tokioschool\\pr8v.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\videos\\tokioschool\\pr9v.mp4",
+      "PackagePath": "staticwebassets\\videos\\tokioschool\\pr9v.mp4"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.Portfolio.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.Portfolio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.build.Portfolio.props",
+      "PackagePath": "build\\Portfolio.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Portfolio.props",
+      "PackagePath": "buildMultiTargeting\\Portfolio.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildTransitive.Portfolio.props",
+      "PackagePath": "buildTransitive\\Portfolio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
