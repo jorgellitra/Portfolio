@@ -6,3 +6,7 @@ window.playAllVideos = () => {
         video.play().catch(e => console.warn("Autoplay prevented:", e));
     });
 };
+
+window.scrollToBottom = () => {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+};

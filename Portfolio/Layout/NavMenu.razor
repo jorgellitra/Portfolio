@@ -1,6 +1,6 @@
 ﻿<MudNavMenu>
     <MudNavLink Href="/" Match="NavLinkMatch.All">Home</MudNavLink>
-    <MudNavLink Href="/about" Match="NavLinkMatch.Prefix">About Me</MudNavLink>
+    <MudNavLink @onclick="ScrollToBottom" Match="NavLinkMatch.Prefix">About Me</MudNavLink>
 
     <MudNavGroup Title="Tokio School" Expanded="false">
         <MudNavLink Href="/tokio-school/pr1" Match="NavLinkMatch.Prefix">Práctica 1</MudNavLink>
@@ -27,5 +27,13 @@
         <MudNavLink Href="/projects/unity-dialogue-system" Match="NavLinkMatch.Prefix">Dialogue System</MudNavLink>
         <MudNavLink Href="/projects/unity-rpg-game" Match="NavLinkMatch.Prefix">Unity RPG Game</MudNavLink>
     </MudNavGroup>
-    <MudNavLink Href="/contact" Match="NavLinkMatch.Prefix">About</MudNavLink>
 </MudNavMenu>
+
+@inject IJSRuntime JS
+
+@code {
+    private async Task ScrollToBottom()
+    {
+        await JS.InvokeVoidAsync("scrollToBottom");
+    }
+}

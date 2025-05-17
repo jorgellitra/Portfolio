@@ -12,16 +12,27 @@
 {
 <MudItem xs="6" sm="6">
     <MudCard Class="d-flex align-center justify-center mud-width-full">
-        @if (!string.IsNullOrEmpty(game.VideoPath))
+        @if (!string.IsNullOrEmpty(game.VideoPath) && game.VideoPath.Contains("https"))
         {
-        <div class="card-video">
-            <video class="auto-play-video" loop muted playsinline>
-                <source src=@($"videos/{game.VideoPath}.mp4#t=0.01") type="video/mp4">
-            </video>
-        </div>
+            <div class="card-video">
+                <iframe src=@($"{game.VideoPath}")
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+        }
+        else if (!string.IsNullOrEmpty(game.VideoPath))
+        {
+            <div class="card-video">
+                <video class="auto-play-video" loop muted playsinline>
+                    <source src=@($"videos/{game.VideoPath}.mp4#t=0.01") type="video/mp4">
+                </video>
+            </div>
         }
         <MudCardContent Class="w-100">
-            <MudText Typo="Typo.h5">@game.TitleEN <MudChip T="string">Aaafe</MudChip></MudText>
+            <MudText Typo="Typo.h5">@game.TitleEN</MudText>
             <MudText Typo="Typo.body2">@game.DescriptionEN</MudText>
         </MudCardContent>
         @* <MudCardActions> *@
