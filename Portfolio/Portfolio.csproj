@@ -21,5 +21,41 @@
     <ItemGroup>
       <Folder Include="Pages\TokioSchool\" />
     </ItemGroup>
+    
+    <Target Name="CustomizePublishOutput" AfterTargets="Publish">
+      <!-- 1. Mover el contenido de wwwroot a la raíz del directorio publicado -->
+      <ItemGroup>
+        <FilesInWwwroot Include="$(PublishDir)wwwroot\**\*" />
+      </ItemGroup>
+
+      <Copy SourceFiles="@(FilesInWwwroot)" 
+            DestinationFiles="@(FilesInWwwroot->'$(PublishDir)%(RecursiveDir)%(Filename)%(Extension)')" 
+            SkipUnchangedFiles="true" />
+
+      <RemoveDir Directories="$(PublishDir)wwwroot" />
+
+      <!-- 2. Reemplazar <base href="/" /> por <base href="https://jorgellitra.github.io/" /> en index.html -->
+      <Message Text="🔧 Reemplazando base href en index.html..." Importance="high" />
+      <ReadLinesFromFile File="$(PublishDir)index.html">
+        <Output TaskParameter="Lines" ItemName="IndexHtmlLines" />
+      </ReadLinesFromFile>
+
+      <ItemGroup>
+        <ModifiedIndexHtmlLines Include="@(IndexHtmlLines->Replace('&lt;base href=&quot;/&quot; /&gt;','&lt;base href=&quot;https://jorgellitra.github.io/&quot; /&gt;'))" />
+      </ItemGroup>
+
+      <WriteLinesToFile
+        File="$(PublishDir)index.html"
+        Lines="@(ModifiedIndexHtmlLines)"
+        Overwrite="true" />
+
+      <!-- 3. Crear archivo vacío .nojekyll -->
+      <Message Text="📄 Creando archivo .nojekyll..." Importance="high" />
+      <WriteLinesToFile
+        File="$(PublishDir).nojekyll"
+        Lines=""
+        Overwrite="true" />
+    </Target>
+
 
 </Project>
