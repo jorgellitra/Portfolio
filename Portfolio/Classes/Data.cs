@@ -2,200 +2,194 @@ namespace Portfolio.Classes;
 
 public class PortfolioItem
 {
-    public int Id { get; set; }
     public string TitleEN { get; set; }
     public string DescriptionEN { get; set; }
-    public string ImagePath { get; set; }
     public string Path { get; set; }
     public string? VideoPath { get; set; }
+    public int PeopleInvolve { get; set; } = 1;
+    public bool HasOwnPage { get; set; } = false;
+}
+
+public class PortfolioPage
+{
+    public string Title { get; set; }
+    public string About { get; set; }
+    public string Role { get; set; }
+    public int TeamSize { get; set; }
+    public string Engine { get; set; }
+    public string Introduction { get; set; }
+    public string StoreUrl { get; set; }
 }
 
 public static class PortfolioData
 {
-    public static List<string> TechnicalExperience = new List<string>()
-    {
+    public static List<string> TechnicalExperience =
+    [
         "Unity",
         "C#",
+        ".NET",
         "Git",
         "Blazor",
+        "Supabase",
+        "Firebase",
+        "API Development",
         "MySQL",
         "SQL Server",
         "JQuery",
         "JavaScript",
         "Slack",
+        "OOP",
+        "OOD",
         "React",
-        "API Development",
         "HTML",
         "PostgreSQL"
-    };
-    public static List<PortfolioItem> PersonalProjects => new List<PortfolioItem>
-    {
+    ];
+
+    public static List<PortfolioItem> PersonalProjects =>
+    [
+        new PortfolioItem {
+            TitleEN = "PuzzleChess",
+            DescriptionEN = "My first mobile game published on Play Store. A puzzle game based on chess mechanics featuring 500 handcrafted levels. Each puzzle requires 1 or 2 precise moves to solve. Players earn free points by completing challenges or watching optional ads, which can be redeemed to unlock cosmetic skins.",
+            Path = "puzzlechess",
+            VideoPath = "puzzlechessv",
+            HasOwnPage = true
+        },
         new PortfolioItem
         {
-            Id= 1,
-            TitleEN="Dimensional Hike",
-            DescriptionEN= "Project I'm currently working on. It is a 2D and 3D game in which you will have to solve puzzles and go through different obstacles. My job is to develop all the programming of the game based on what I have already learned in the courses and my own personal training.",
-            ImagePath= "dh",
-            Path= "dh",
-            VideoPath= "dhv"
+            TitleEN = "Dimensional Hike",
+            DescriptionEN = "A hybrid 2D/3D puzzle-platformer where players solve challenges and navigate obstacles across dimensional shifts. I was responsible for the entire gameplay programming, applying knowledge from structured coursework and self-driven learning.",
+            Path = "dh",
+            VideoPath = "dhv",
+            PeopleInvolve = 2
         },
         new PortfolioItem {
-            Id= 2,
-            TitleEN="Building System",
-            DescriptionEN= "Project in which I built some construction mechanics inspired by the famous survival game Valheim. I designed 3 types of structures; Wall, Floor and Ladder. Then, I added to each structure the relative positions I wanted it to have with respect to the others, taking into account its rotation. Finally, I added a particle system for when you destroy an object, some textures and buildings to improve the atmosphere.",
-            ImagePath= "buildingi",
-            Path= "buildingi",
-            VideoPath= "buildingv"
+            TitleEN = "Building System",
+            DescriptionEN = "A modular construction system inspired by Valheim. I implemented snapping mechanics for wall, floor, and ladder elements with rotation-aware placement. Additional features included particle effects on destruction and environmental enhancements for visual feedback.",
+            Path = "buildingi",
+            VideoPath = "buildingv"
         },
         new PortfolioItem {
-            Id= 3,
-            TitleEN="Pong Online",
-            DescriptionEN= "This is my first project to learn how to manage LAN multiplayer in Unity. In it, I learned how to manage the tools that Unity offers you for online development ('Unity Netcode', 'Networking', 'Lobby', 'Relay'...). I wanted to recreate a simple game where I could offer a LAN experience having one of the users as Host.",
-            ImagePath= "pongi",
-            Path= "pongi",
-            VideoPath= "pongv"
+            TitleEN = "Pong Online",
+            DescriptionEN = "My first networked multiplayer project using Unity Netcode tools such as Lobby and Relay. I recreated a classic Pong experience with LAN functionality, allowing one user to act as host and manage session flow.",
+            Path = "pongi",
+            VideoPath = "pongv"
         },
         new PortfolioItem {
-            Id= 4,
-            TitleEN="Fall Guys Character Controller",
-            DescriptionEN= "Project in which I recreated the main mechanics of Fall Guys. It was also the first time I animated a character and changed the modeling of an existing one. Mechanics= Double jump forward, grab a character, circular 3D camera, different types of traps...",
-            ImagePath= "fguys",
-            Path= "fguys",
-            VideoPath= "fallguys"
+            TitleEN = "Fall Guys Character Controller",
+            DescriptionEN = "A mechanics prototype replicating core features from Fall Guys. I developed a third-person character controller with double jump, grab interactions, trap handling, and a dynamic 3D camera. This project also introduced me to character animation and model modification.",
+            Path = "fguys",
+            VideoPath = "fallguys"
         },
         new PortfolioItem {
-            Id= 5,
-            TitleEN="Procedural Map",
-            DescriptionEN= "In this part of the training, I designed different rooms that were connected to each other on all four sides. Then I added a series of rules that make a different map is created for each level, being able to change the percentages of appearance of each type of room. All this helped me to learn the necessary basics and build a procedural map.",
-            ImagePath= "procedural",
-            Path= "procedural",
-            VideoPath= "proceduralv"
+            TitleEN = "Procedural Map",
+            DescriptionEN = "Designed a procedural level generation system using modular room components. Each level creates a unique layout by applying spawn rules and probability weights for room types, building the foundation for scalable procedural content.",
+            Path = "procedural",
+            VideoPath = "proceduralv"
         },
         new PortfolioItem {
-            Id= 6,
-            TitleEN="Unity Dialogue & Quests= Intermediate C# Game Coding",
-            DescriptionEN= "Certified course where I learned how to make Scriptable Objects, create a window in Unity completely from 0 (in this case to make dialogs), program an inventory with drag and drop, create a dynamic saving system serializable and very easily extensible. ",
-            ImagePath= "dialogue",
-            Path= "dialogue",
-            VideoPath= "dialoguev"
+            TitleEN = "Dialogue & Quests: Intermediate C# Game Coding",
+            DescriptionEN = "Certified course focused on intermediate C# systems for games. I implemented ScriptableObject-based dialogues, built a custom Unity editor window, created a drag-and-drop inventory UI, and developed a modular save system using serialization.",
+            Path = "dialogue",
+            VideoPath = "dialoguev"
         },
         new PortfolioItem {
-            Id= 7,
-            TitleEN="Create an RPG Game in Unity",
-            DescriptionEN= "In this course I learned how to create an entire RPG game. During the course, I used downloadable content modeling and this helped me to organize the project and program its functionalities. I learned how to design a level with terrain, how to take into account the lighting performance, the combat system of an RPG, etc.",
-            ImagePath= "rpg",
-            Path= "rpg",
-            VideoPath= "rpgv"
+            TitleEN = "Create an RPG Game in Unity",
+            DescriptionEN = "Completed a full-scale RPG development course. I learned environment design with Unity terrain tools, optimized lighting for performance, and implemented core RPG systems including inventory, combat, and character progression.",
+            Path = "rpg",
+            VideoPath = "rpgv"
         }
-    };
+    ];
     
     public static List<PortfolioItem> TokioSchool => new List<PortfolioItem>
     {
         new PortfolioItem {
-            Id= 9,
-            TitleEN="Activity 1",
-            DescriptionEN= "As usual, the first project is to recreate the mythical video game Pong. In this practice, I was asked for the game to have power ups in case the ball hits any of them, the last player to touch the ball, is the one who will receive the power. It has a minimal AI for the second player to chase the height of the ball.",
-            ImagePath= "pr1i",
-            Path= "pr1i",
-            VideoPath= "tokioschool/pr1v"
+            TitleEN = "Project 1",
+            DescriptionEN = "An enhanced Pong game with power-up mechanics. The last player to hit the ball gains the effect when it strikes a bonus. Includes basic AI that tracks the ball’s Y position for single-player mode.",
+            Path = "pr1i",
+            VideoPath = "tokioschool/pr1v"
         },
         new PortfolioItem {
-            Id= 10,
-            TitleEN="Activity 2",
-            DescriptionEN= "The aim of this practice was to acquire knowledge of the masks in Unity and an example of this is the way the moles appear. This is the Mole game, a classic of the fairs. The game consists of clicking as many moles as possible in a given time.",
-            ImagePath= "pr2i",
-            Path= "pr2i",
-            VideoPath= "tokioschool/pr2v"
+            TitleEN = "Project 2",
+            DescriptionEN = "A classic Whac-A-Mole game created to practice Unity’s masking system. Moles appear randomly and the player must hit as many as possible before time runs out.",
+            Path = "pr2i",
+            VideoPath = "tokioschool/pr2v"
         },
         new PortfolioItem {
-            Id= 11,
-            TitleEN="Activity 3",
-            DescriptionEN= "The brief for this practice was to make an Infinity Runner and I thought I would do it in 2D to learn about Tilemaps. As I wanted the character to have a bit more movement, it is the character that moves and as he moves forward more map is generated in front of him.",
-            ImagePath= "pr3i",
-            Path= "pr3i",
-            VideoPath= "tokioschool/pr3v"
+            TitleEN = "Project 3",
+            DescriptionEN = "A 2D infinite runner designed to explore Unity's Tilemap system. The character advances forward while the map is generated procedurally in front of them, simulating endless terrain.",
+            Path = "pr3i",
+            VideoPath = "tokioschool/pr3v"
         },
         new PortfolioItem {
-            Id= 12,
-            TitleEN="Activity 4",
-            DescriptionEN= "This project is based on the Clicker mechanic, every time you click on the enemy, it does damage and when you win, you get a reward that improves the damage, defence or health stats. I also added a way for the player to heal himself by clicking on his character.",
-            ImagePath= "pr4i",
-            Path= "pr4i",
-            VideoPath= "tokioschool/pr4v"
+            TitleEN = "Project 4",
+            DescriptionEN = "A clicker-style game where players deal damage by clicking an enemy and earn rewards to improve their stats. Includes healing mechanics by interacting with the player’s character.",
+            Path = "pr4i",
+            VideoPath = "tokioschool/pr4v"
         },
         new PortfolioItem {
-            Id= 13,
-            TitleEN="Activity 5",
-            DescriptionEN= "At this point in the course, the physics of player movement was emphasised a bit more, trying to recreate the feeling of movement of the Mario Bros games; by pressing the jump button longer, you can jump higher, the acceleration movement of the character, etc.",
-            ImagePath= "pr5i",
-            Path= "pr5i",
-            VideoPath= "tokioschool/pr5v"
+            TitleEN = "Project 5",
+            DescriptionEN = "Platformer prototype inspired by Mario Bros physics. Focused on replicating responsive jump mechanics, acceleration, and variable jump height based on button press duration.",
+            Path = "pr5i",
+            VideoPath = "tokioschool/pr5v"
         },
         new PortfolioItem {
-            Id= 14,
-            TitleEN="Activity 6",
-            DescriptionEN= "For this practice, it consisted of playing the classic ship game, where waves of enemies and obstacles were arriving, with the peculiarity that power ups could appear and when they were hit by the player's bullets, the player would gain power. It is composed of 3 rounds and a local ranking of scores.",
-            ImagePath= "pr6i",
-            Path= "pr6i",
-            VideoPath= "tokioschool/pr6v"
+            TitleEN = "Project 6",
+            DescriptionEN = "A 2D space shooter featuring enemy waves, obstacles, and power-ups activated by shooting them. Includes multiple rounds and a local high-score leaderboard.",
+            Path = "pr6i",
+            VideoPath = "tokioschool/pr6v"
         },
         new PortfolioItem {
-            Id= 15,
-            TitleEN="Activity 7",
-            DescriptionEN= "This project was a reconstruction of practice 5, as it asked us to make a metroidvania with a combat system and collectibles on the stage. I used a state machine for AI control and improved the player's movement from the previous practice and made use of the Cinemachine asset for camera control.",
-            ImagePath= "pr7i",
-            Path= "pr7i",
-            VideoPath= "tokioschool/pr7v"
+            TitleEN = "Project 7",
+            DescriptionEN = "A metroidvania prototype built from an earlier platformer. Introduced AI state machines, stage collectibles, combat system, and used Cinemachine for dynamic camera control.",
+            Path = "pr7i",
+            VideoPath = "tokioschool/pr7v"
         },
         new PortfolioItem {
-            Id= 16,
-            TitleEN="Activity 8",
-            DescriptionEN= "As you can see it was a simple practice to get familiar with the VR controls to simulate a museum. I added the DoTween asset for moving the player's position and levitating the stage spheres.",
-            ImagePath= "pr8i",
-            Path= "pr8i",
-            VideoPath= "tokioschool/pr8v"
+            TitleEN = "Project 8",
+            DescriptionEN = "A simple VR museum simulation to explore Unity’s VR integration. Used DoTween for smooth player movement and visual effects like levitating orbs.",
+            Path = "pr8i",
+            VideoPath = "tokioschool/pr8v"
         },
         new PortfolioItem {
-            Id= 17,
-            TitleEN="Activity 9",
-            DescriptionEN= "This practice was based on creating a First Person Shooter but with VR controls. I made use of Raycasts to detect the enemies and kill them, they would appear at certain points on the map and with the help of the NavMesh Agent they would advance towards the player.",
-            ImagePath= "pr9i",
-            Path= "pr9i",
-            VideoPath= "tokioschool/pr9v"
+            TitleEN = "Project 9",
+            DescriptionEN = "A VR first-person shooter using raycasting for enemy detection. Enemies spawned and approached the player using Unity’s NavMesh system for navigation.",
+            Path = "pr9i",
+            VideoPath = "tokioschool/pr9v"
         },
         new PortfolioItem {
-            Id= 18,
-            TitleEN="Activity 10",
-            DescriptionEN= "Here, we were commissioned to make use of Vuforia's technology to detect Targets and create an application based on that technology, to recreate a system of molecules that interact with multiple targets and interact with each other.",
-            ImagePath= "pr10i",
-            Path= "pr10i",
-            VideoPath= "tokioschool/pr10v"
+            TitleEN = "Project 10",
+            DescriptionEN = "An AR application using Vuforia to detect multiple image targets and display interactive 3D molecules. Demonstrates multi-target interaction and basic augmented reality systems.",
+            Path = "pr10i",
+            VideoPath = "tokioschool/pr10v"
         },
         new PortfolioItem {
-            Id= 19,
-            TitleEN="Activity 11",
-            DescriptionEN= "Leaving the VR sector behind, this project consisted of making a First Person Shooter, making use of Unity's New Input System for the controls, I made a circuit shooter against the clock with different weapons, where you have to shoot all the targets. As a countermeasure, running or jumping uses up the player's stamina bar. Also, I added some design patterns like Singleton for the main classes and Object Pool for the weapon bullets.",
-            ImagePath= "pr11i",
-            Path= "pr11i",
-            VideoPath= "tokioschool/pr11v"
+            TitleEN = "Project 11",
+            DescriptionEN = "A timed FPS circuit built with Unity’s New Input System. Players complete the course by hitting all targets while managing stamina. Used Singleton and Object Pool design patterns for efficient architecture.",
+            Path = "pr11i",
+            VideoPath = "tokioschool/pr11v"
         },
         new PortfolioItem {
-            Id= 20,
-            TitleEN="Activity 12",
-            DescriptionEN= "In this last practice, we were assigned to make a simple mobile application to learn the basic functions of Unity in mobile controls. The project is a replica of Flappy Bird, where tapping makes the character rise up to dodge the pipes.",
-            ImagePath= "pr12i",
-            Path= "pr12i",
-            VideoPath= "tokioschool/pr12v"
+            TitleEN = "Project 12",
+            DescriptionEN = "A mobile-friendly Flappy Bird clone created to practice Unity’s mobile input handling. Tap mechanics were implemented for simple and responsive control.",
+            Path = "pr12i",
+            VideoPath = "tokioschool/pr12v"
         },
         new PortfolioItem {
-            Id= 21,
-            TitleEN="Final Master",
-            DescriptionEN= "Finally, this is my final master work, we were given 3 topics to work on and I decided to make a first person 3D game to increase my 3D knowledge as I hadn't done much during the course. The game consists of using the different weapons, which are unlocked as you go to the next level to complete the game in the shortest time possible and save your final score in an online database in Azure.\n " +
-            "I have used all the tools learnt along the course and deepened some more, the most outstanding ones could be= the state machine for enemy AI, the use of New Input System for character control, postprocessing, scriptable objects for saving weapon data, cinemachine and design patterns like Singleton or structuring the code with SOLID Principles" +
-            "For more details on the resources used in the project, see this document",
-            ImagePath= "tfmi",
-            Path= "tfmi",
-            VideoPath= "https://www.youtube.com/embed/JbW8hk-s7dM?si=NrhBvubnTYvxES7V&amp;controls=0"
+            TitleEN = "Final Master's Project",
+            DescriptionEN = "A 3D first-person action game where players unlock weapons across levels and aim for the best time. Data such as final scores is stored in an Azure-hosted database. Applied a wide range of concepts from the course: state machines for AI, Unity’s New Input System, post-processing, ScriptableObjects for weapon data, Cinemachine for camera control, and SOLID design principles. For more technical details, refer to the project documentation.",
+            Path = "tfmi",
+            VideoPath = "https://www.youtube.com/embed/JbW8hk-s7dM?si=NrhBvubnTYvxES7V&amp;controls=0"
         }
+    };
+
+    public static PortfolioPage PuzzleChess = new PortfolioPage
+    {
+        Title = "PuzzleChess",
+        About = "PuzzleChess is my first mobile game published on Play Store. It is a puzzle game based on chess mechanics, featuring 500 handcrafted levels. Each puzzle requires 1 or 2 precise moves to solve. Players earn free points by completing challenges or watching optional ads, which can be redeemed to unlock cosmetic skins.",
+        Role = "Game Developer",
+        TeamSize = 1,
+        Engine = "Unity",
+        Introduction = "After gaining valuable experience at Rising Pixel and deepening my knowledge through my academic studies, I felt it was the right moment to take on a personal challenge: develop and publish my own game. I wanted to consolidate everything I had learned—both technically and creatively—into a single, focused project.\r\n\r\nI deliberately chose a small-scope game that would allow me to experiment with and implement software architecture best practices, especially design patterns, without being constrained by the complexity or length of a large production. PuzzleChess became the perfect canvas to reinforce my skills in a real-world product, while also delivering a complete and polished mobile experience.",
+        StoreUrl = "https://play.google.com/store/apps/details?id=com.puzzlechess",
     };
 }

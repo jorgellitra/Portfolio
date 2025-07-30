@@ -14,3 +14,6 @@
 /Portfolio/bin/**
 /Portfolio/obj/**
 /publish/**
+/.vs
+/.idea
+/.idea/.idea.Portfolio/.idea/workspace.xml

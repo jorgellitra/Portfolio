@@ -1,0 +1,173 @@
+﻿@page "/puzzlechess"
+@using Portfolio.Classes
+ 
+<PageTitle>@game.Title</PageTitle>
+
+<MudContainer Class="big-video" MaxWidth="MaxWidth.Large">
+    <MudItem xs="12" sm="12">
+        <MudCard Class="card">
+            <div class="card-video">
+                <video class="auto-play-video" loop muted playsinline>
+                    <source src=@($"videos/puzzlechessv.mp4#t=0.01") type="video/mp4">
+                </video>
+            </div>
+
+            <MudStack Row="true" Class="video-additional-info-solo">
+                <MudText Typo="Typo.h4">@game.Title</MudText>
+            </MudStack>
+        </MudCard>
+    </MudItem>
+</MudContainer>
+
+<MudContainer Class="my-5" MaxWidth="MaxWidth.Large">
+    <MudStack Row="true">
+        <MudPaper Class="about">
+            <MudText Class="mb-4" Typo="Typo.body2"><strong>About</strong></MudText>
+            <MudText Typo="Typo.body1">@game.About</MudText>
+        </MudPaper>
+        <MudPaper Class="info-project">
+            <MudText Class="mb-4" Typo="Typo.body2"><strong>Project Information</strong></MudText>
+
+            <MudStack Row="true">
+                <MudIcon Icon="@Icons.Material.Filled.Person" Size="Size.Small" Title="Role" />
+                <MudText>@game.Role</MudText>
+            </MudStack>
+            <MudStack Row="true">
+                <MudIcon Icon="@Icons.Material.Filled.People" Size="Size.Small" Title="Team Size" />
+                <MudText>Team Size: @game.TeamSize</MudText>
+            </MudStack>
+            <MudStack Row="true">
+                <MudIcon Icon="@Icons.Material.Filled.Construction" Size="Size.Small" Title="Engine" />
+                <MudText>Engine: Unity Engine 6.1</MudText>
+            </MudStack>
+            <MudStack Row="true"> 
+                <svg style="height: 20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M389.6 298.3L168.9 77L449.7 238.2L389.6 298.3zM111.3 64C98.3 70.8 89.6 83.2 89.6 99.3L89.6 540.6C89.6 556.7 98.3 569.1 111.3 575.9L367.9 319.9L111.3 64zM536.5 289.6L477.6 255.5L411.9 320L477.6 384.5L537.7 350.4C555.7 336.1 555.7 303.9 536.5 289.6zM168.9 563L449.7 401.8L389.6 341.7L168.9 563z" fill="#ffffff" fill-opacity="0.7" /></svg>
+                <MudText>Google Play: <MudLink Href="@game.StoreUrl">Try it</MudLink></MudText>
+            </MudStack>
+        </MudPaper>
+    </MudStack>
+</MudContainer>
+
+<MudContainer Class="my-5" MaxWidth="MaxWidth.Large">
+    <MudText Class="mb-4" Typo="Typo.h2">Introduction</MudText>
+    <MudText>@game.Introduction</MudText>
+</MudContainer>
+
+<MudContainer Class="my-5" MaxWidth="MaxWidth.Large">
+    <MudText Typo="Typo.h2" Class="mb-4">Design Patterns & Architecture</MudText>
+    <MudText Class="mb-4">
+        One of the core objectives of this project was to apply and test robust architecture principles in a real product.
+        Below are the main design patterns I implemented, each contributing to cleaner, scalable, and more maintainable code.
+    </MudText>
+
+    <MudDivider Class="mb-4" />
+
+    <MudGrid>
+        <MudItem xs="12" md="6">
+            <MudCard Class="height-250">
+                <MudCardContent>
+                    <MudText Typo="Typo.h5" Class="mb-2">Singleton</MudText>
+                    <MudText>
+                        The Singleton pattern ensures a class has only one instance and provides a global point of access to it.
+                        It’s widely used in Unity development for managing global services and persistent systems.
+                    </MudText>
+                    <MudText Class="mt-2">
+                        <strong>In PuzzleChess</strong>, I used Singleton for managers like <code>IngameManager</code> and <code>ViewManager</code> to ensure consistent access across scenes while avoiding duplication and lifecycle issues.
+                    </MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" md="6">
+            <MudCard Class="height-250">
+                <MudCardContent>
+                    <MudText Typo="Typo.h5" Class="mb-2">Strategy</MudText>
+                    <MudText >
+                        The Strategy pattern enables selecting an algorithm at runtime. It’s perfect when you have different behaviors encapsulated in separate classes.
+                    </MudText>
+                    <MudText Class="mt-2">
+                        <strong>In PuzzleChess</strong>, each chess piece (Rook, Knight, Bishop...) implements its own movement class (e.g., <code>KnightMovement</code>), all derived from a shared interface.
+                        This keeps logic modular and makes it easy to add new piece types or custom rules in the future.
+                    </MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" md="6">
+            <MudCard Class="height-250">
+                <MudCardContent>
+                    <MudText Typo="Typo.h5" Class="mb-2">Service Locator</MudText>
+                    <MudText >
+                        The Service Locator pattern allows objects to access shared services without hard dependencies, improving decoupling and testing.
+                    </MudText>
+                    <MudText Class="mt-2">
+                        <strong>In PuzzleChess</strong>, I created a centralized <code>ServicesManager</code> for accessing services such as input handling, 
+                        coin manager, or audio configuration. This simplified dependency management and reduced coupling between systems.
+                    </MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" md="6">
+            <MudCard Class="height-250">
+                <MudCardContent>
+                    <MudText Typo="Typo.h5" Class="mb-2">Object Pooling</MudText>
+                    <MudText >
+                        Object Pooling is a performance optimization technique where frequently used objects are reused 
+                        instead of instantiated and destroyed. Reducing GC allocations and improved runtime performance.
+                    </MudText>
+                    <MudText Class="mt-2">
+                        <MudText><strong>In PuzzleChess</strong>, I used Unity's new 
+                            <MudLink Href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Pool.ObjectPool_1.html"><code>ObjectPool&lt;T&gt;</code></MudLink> for:</MudText>
+                        <MudList ReadOnly="true" Dense="true" T="string">
+                            <MudListItem IconSize="Size.Small" Icon="@Icons.Material.Filled.Circle"> <MudText>Markers that show valid moves</MudText> </MudListItem>
+                            <MudListItem IconSize="Size.Small" Icon="@Icons.Material.Filled.Circle"> <MudText>Trail effects in the Knight Tour animation</MudText></MudListItem>
+                        </MudList>
+                    </MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+</MudContainer>
+
+<MudContainer Class="my-5" MaxWidth="MaxWidth.Large">
+    <MudText Class="mb-4" Typo="Typo.h2">Next Steps</MudText>
+
+    <MudText Class="mb-4">
+        With the core game released, I’ve identified a few key improvements that will take PuzzleChess to the next level, 
+        both technically and in terms of player experience.
+    </MudText>
+
+    <MudText Typo="Typo.h5" Class="my-4">Implement Undo with the Command Pattern</MudText>
+    <MudText>
+        I plan to introduce the <code>Command</code> design pattern to manage player turns. This will allow the game to store and reverse actions 
+        such as piece movements, enabling players to undo steps — a valuable addition for both strategy and accessibility.
+    </MudText>
+
+    <MudText Typo="Typo.h5" Class="my-4">Add Localization for Multiple Languages</MudText>
+    <MudText>
+        I aim to support at least five languages. Using Unity’s localization tools, this will help me learn about this very useful topic in the industry.
+    </MudText>
+
+    <MudText Typo="Typo.h5" Class="my-4">Integrate Gameplay Analytics</MudText>
+    <MudText>
+        Implementing tools like Firebase or Unity Analytics will let me track user engagement and puzzle difficulty. This data will help refine 
+        level design, detect friction points, and improve retention.
+    </MudText>
+
+
+</MudContainer>
+
+@code {
+    public PortfolioPage game = PortfolioData.PuzzleChess;
+
+    [Inject] IJSRuntime JS { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("playAllVideos");
+        }
+    }
+}
