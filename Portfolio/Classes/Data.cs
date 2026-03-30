@@ -190,6 +190,6 @@ public static class PortfolioData
         TeamSize = 1,
         Engine = "Unity",
         Introduction = "After gaining valuable experience at Rising Pixel and deepening my knowledge through my academic studies, I felt it was the right moment to take on a personal challenge: develop and publish my own game. I wanted to consolidate everything I had learned—both technically and creatively—into a single, focused project.\r\n\r\nI deliberately chose a small-scope game that would allow me to experiment with and implement software architecture best practices, especially design patterns, without being constrained by the complexity or length of a large production. PuzzleChess became the perfect canvas to reinforce my skills in a real-world product, while also delivering a complete and polished mobile experience.",
-        StoreUrl = "https://play.google.com/store/apps/details?id=com.puzzlechess",
+        StoreUrl = "https://jorgellitra.itch.io/puzzlechess",
     };
 }
