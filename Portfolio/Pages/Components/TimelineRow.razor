@@ -1,0 +1,20 @@
+@using Portfolio.Classes
+
+<div class="timeline-row row-rule">
+    <span class="text-muted timeline-period">@Item.Period</span>
+    <div>
+        <h4 class="timeline-role">@Item.Role</h4>
+        <span class="timeline-org">@Item.Org</span>
+        @if (!string.IsNullOrEmpty(Item.Description))
+        {
+            <p class="text-muted timeline-desc">@Item.Description</p>
+        }
+    </div>
+</div>
+
+@code {
+
+    [Parameter, EditorRequired]
+    public TimelineItem Item { get; set; } = default!;
+
+}

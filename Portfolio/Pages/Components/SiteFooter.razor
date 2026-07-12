@@ -1,0 +1,22 @@
+@using Portfolio.Classes
+
+<footer class="site-footer">
+    @if (BackHref is not null)
+    {
+        <a href="@BackHref">← Back to portfolio</a>
+        <span class="text-muted">© @PortfolioData.Identity.CopyrightYear @PortfolioData.Identity.Name</span>
+    }
+    else
+    {
+        <span class="text-muted">© @PortfolioData.Identity.CopyrightYear @PortfolioData.Identity.Name</span>
+        <span class="text-muted">@PortfolioData.Identity.Location</span>
+    }
+</footer>
+
+@code {
+
+    /// <summary>When set, shows a "Back to portfolio" link instead of the location.</summary>
+    [Parameter]
+    public string? BackHref { get; set; }
+
+}

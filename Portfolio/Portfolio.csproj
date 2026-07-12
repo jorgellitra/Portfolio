@@ -9,14 +9,8 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.16" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.16" PrivateAssets="all" />
-        <PackageReference Include="MudBlazor" Version="8.6.0" />
-        <PackageReference Include="MudBlazor.ThemeManager" Version="3.0.0" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Pages\TokioSchool\" />
-    </ItemGroup>
-    
     <Target Name="CustomizePublishOutput" AfterTargets="Publish">
       <!-- 1. Mover el contenido de wwwroot a la raíz del directorio publicado -->
       <ItemGroup>

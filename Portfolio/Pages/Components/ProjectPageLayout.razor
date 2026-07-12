@@ -1,0 +1,108 @@
+@using Portfolio.Classes
+
+@*
+    Reusable template for project (case study) pages.
+    To add a new project page:
+      1. Add a ProjectPageData entry in PortfolioData.
+      2. Create a page with @page "/your-route" that renders:
+             <ProjectPageLayout Data="PortfolioData.YourProjectPage" />
+      3. Optionally pass extra markup via <ExtraSections> for one-off content.
+*@
+
+<div class="page">
+
+    <SiteNav BackHref="/" ActionUrl="@Data.StoreUrl" ActionLabel="@Data.StoreLabel"/>
+
+    <header class="pp-header">
+        @if (Data.HeroVideoPath is not null)
+        {
+            <div class="pp-hero-video">
+                <div class="pp-phone">
+                    <video muted loop playsinline autoplay preload="metadata" src="@Data.HeroVideoPath"></video>
+                </div>
+            </div>
+        }
+        else if (Data.HeroImagePath is not null)
+        {
+            <img class="pp-hero-image" src="@Data.HeroImagePath" alt="@Data.Title"/>
+        }
+        <div class="pp-head-content">
+            <span class="tag tag-accent">@Data.Kicker</span>
+            <h1>@Data.Title</h1>
+            <p class="text-muted pp-summary">@Data.Summary</p>
+            <div class="pp-facts">
+                <span><i class="ph ph-user"></i>Role: @Data.Role</span>
+                <span><i class="ph ph-users"></i>Team size: @Data.TeamSize</span>
+                <span><i class="ph ph-wrench"></i>Engine: @Data.Engine</span>
+                @if (Data.ProjectUrl is not null)
+                {
+                    <span><i class="ph ph-game-controller"></i><a href="@Data.ProjectUrl" target="_blank">@Data.ProjectUrlLabel</a></span>
+                }
+            </div>
+        </div>
+    </header>
+
+    @if (Data.Introduction.Count > 0)
+    {
+        <section class="pp-section narrow">
+            <h2 style="margin-bottom:14px;">@Data.IntroductionTitle</h2>
+            @foreach (var paragraph in Data.Introduction)
+            {
+                <p class="text-muted lead">@paragraph</p>
+            }
+        </section>
+    }
+
+    @if (Data.Highlights.Count > 0)
+    {
+        <section class="pp-section">
+            <h2 style="margin-bottom:8px;">@Data.HighlightsTitle</h2>
+            <p class="text-muted lead" style="max-width:720px;margin-bottom:24px;">@Data.HighlightsIntro</p>
+            <div class="pp-grid-2">
+                @foreach (var highlight in Data.Highlights)
+                {
+                    <div class="card elev-sm">
+                        <span class="card-kicker">@highlight.Kicker</span>
+                        <span class="card-title">@highlight.Title</span>
+                        <p class="card-body">@highlight.What</p>
+                        <p class="pp-usage"><strong>@Data.UsageLabel — </strong>@highlight.Usage</p>
+                    </div>
+                }
+            </div>
+        </section>
+    }
+
+    @if (Data.NextSteps.Count > 0)
+    {
+        <section class="pp-section narrow" style="padding-bottom:56px;">
+            <h2 style="margin-bottom:8px;">@Data.NextStepsTitle</h2>
+            <p class="text-muted lead" style="margin-bottom:20px;">@Data.NextStepsIntro</p>
+            @foreach (var step in Data.NextSteps)
+            {
+                <div class="next-step row-rule">
+                    <i class="@step.Icon"></i>
+                    <div>
+                        <h4>@step.Title</h4>
+                        <p class="text-muted">@step.Description</p>
+                    </div>
+                </div>
+            }
+        </section>
+    }
+
+    @ExtraSections
+
+    <SiteFooter BackHref="/"/>
+
+</div>
+
+@code {
+
+    [Parameter, EditorRequired]
+    public ProjectPageData Data { get; set; } = default!;
+
+    /// <summary>Optional one-off sections rendered before the footer.</summary>
+    [Parameter]
+    public RenderFragment? ExtraSections { get; set; }
+
+}

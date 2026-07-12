@@ -1,0 +1,38 @@
+@using Portfolio.Classes
+
+<nav class="nav site-nav">
+    @if (BackHref is null)
+    {
+        <span class="nav-brand">@PortfolioData.Identity.Name</span>
+        @foreach (var link in PortfolioData.Identity.NavLinks)
+        {
+            <a href="@link.Url">@link.Label</a>
+        }
+        <a class="btn btn-primary" href="@PortfolioData.Identity.CvPath" target="_blank" style="text-decoration:none;">
+            <i class="ph ph-download-simple"></i>@PortfolioData.Identity.CvLabel
+        </a>
+    }
+    else
+    {
+        <a class="nav-back" href="@BackHref"><i class="ph ph-arrow-left"></i>@PortfolioData.Identity.Name</a>
+        @if (ActionUrl is not null)
+        {
+            <a class="btn btn-primary" href="@ActionUrl" target="_blank" style="text-decoration:none;">@ActionLabel</a>
+        }
+    }
+</nav>
+
+@code {
+
+    /// <summary>When set, renders the back-link variant used on project pages.</summary>
+    [Parameter]
+    public string? BackHref { get; set; }
+
+    /// <summary>Optional action button (e.g. store link) for the back-link variant.</summary>
+    [Parameter]
+    public string? ActionUrl { get; set; }
+
+    [Parameter]
+    public string? ActionLabel { get; set; }
+
+}

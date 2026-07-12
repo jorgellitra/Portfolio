@@ -1,75 +1,84 @@
-﻿@page "/"
+@page "/"
 @using Portfolio.Classes
 
-<PageTitle>Jorge Quintana Llitrá | Unity Gameplay Programmer</PageTitle>
+<PageTitle>@PortfolioData.Identity.Name | @PortfolioData.Identity.JobTitle</PageTitle>
 
-<MudContainer Class="my-5" MaxWidth="MaxWidth.Large">
-    <MudText Typo="Typo.h2"> Technical Experience</MudText>
-    <TechnicalExperience List=@(PortfolioData.TechnicalExperience)></TechnicalExperience>
-</MudContainer>
+<div class="page">
 
-<MudContainer Class="my-5" MaxWidth="MaxWidth.Large">
-    <MudStack Row="true" Class="hero-stack">
-        <MudImage Class="profile" Src="images/yo.jpg" Height="200" Width="200"></MudImage>
-        <MudText Typo="Typo.h4" Class="profile-text"> Game programmer with a focus on systems and gameplay development, 
-            dedicated to writing clean, efficient code and embracing new challenges in game creation. </MudText>
-    </MudStack>
+    <SiteNav/>
 
-    <MudText Typo="Typo.h2"> Personal Projects</MudText>
-    <MudGrid>
-        <VideoCard List="@(PortfolioData.PersonalProjects)"></VideoCard>
-    </MudGrid>
-</MudContainer>
-
-<MudContainer Class="my-5" MaxWidth="MaxWidth.Large">
-    <MudText Typo="Typo.h2"> Tokio School Projects</MudText>
-    <MudGrid>
-        <VideoCard List="@(PortfolioData.TokioSchool)" ></VideoCard>
-    </MudGrid>
-</MudContainer>
-
-<MudContainer Class="my-5" MaxWidth="MaxWidth.Large">
-    <MudText Typo="Typo.h2"> Educations</MudText>
-    <MudGrid>
-        <EducationCard
-            Title="TOKIO SCHOOL (2023-2025)"
-            Description="Higher Education Diploma with specialization in Gameplay Programming" >
-        </EducationCard>
-        <EducationCard
-            Title="ULPGC (2012-2018)"
-            Description="Higher Education Diploma with specialization in Software Developing. (University of Las Palmas de Gran Canaria)">
-        </EducationCard>
-    </MudGrid>
-</MudContainer>
-
-<div class="information-section">
-    <MudContainer>
-        <MudText Class="information-text" Typo="Typo.h2"><strong>Hi, I'm Jorge</strong></MudText>
-        <div class="information-section-text">
-            <MudText Class="information-text" Typo="Typo.body1">I'm a <strong>software and game developer</strong> with over 6 years of professional experience,
-                currently working at <strong>Rising Pixel SL</strong> in Las Palmas de Gran Canaria, Spain. My work focuses on full-time
-                <strong>game development</strong>, and I also work as a backend/DevOps developer in some games.</MudText>
-            <MudText Class="information-text" Typo="Typo.body1"> Previously, I worked on a variety of software projects across several companies,
-                including <strong>Symbyosys</strong>, <strong>GRUPO1844</strong>, and <strong>Minsait</strong>, where I gained solid experience in web development,
-                object-oriented programming, and building scalable applications.</MudText>
-            <MudText Class="information-text" Typo="Typo.body1"> I’m passionate about creating software that not only works efficiently
-                but also delivers a great user experience. I enjoy solving technical challenges, continuously learning,
-                and writing clean, maintainable code—whether it’s in <strong>C#</strong>, <strong>Unity</strong>, or full-stack technologies.</MudText>
-            <MudText Class="information-text" Typo="Typo.body1"> If you'd like to get in touch or learn more about my work, feel free to reach out
-                through my resume or social media links.</MudText>
+    <header class="hero">
+        <div class="hero-content">
+            <h6 class="hero-kicker">@PortfolioData.Identity.JobTitle</h6>
+            <h1>@PortfolioData.Identity.Headline</h1>
+            <p class="text-muted hero-tagline">@PortfolioData.Identity.Subheadline</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="work">View all projects</a>
+                <a class="btn btn-secondary" href="@PortfolioData.Identity.CvPath" target="_blank">Download CV</a>
+                <span class="hero-socials">
+                    @foreach (var social in PortfolioData.Identity.Socials)
+                    {
+                        <a href="@social.Url" target="_blank" title="@social.Label"><i class="@social.Icon"></i></a>
+                    }
+                </span>
+            </div>
         </div>
-    </MudContainer>
-</div>
+        <img class="hero-photo" src="@PortfolioData.Identity.PhotoPath" alt="@PortfolioData.Identity.Name"/>
+    </header>
 
-@code {
-    [Inject] IJSRuntime JS { get; set; }
-    
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
+    <div class="skills">
+        @foreach (var skill in PortfolioData.Skills)
         {
-            await JS.InvokeVoidAsync("playAllVideos");
+            <span class="tag tag-neutral">@skill</span>
         }
-    }
-    
-}
+    </div>
+
+    <section id="projects" class="section">
+        <h6 class="section-kicker">Featured work</h6>
+        <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:24px;flex-wrap:wrap;">
+            <h2 style="margin:0;">Projects</h2>
+            <a href="work" style="font-size:14px;text-decoration:none;">All projects →</a>
+        </div>
+        <div class="projects-grid" style="--project-cols:@PortfolioData.HomeGridColumns">
+            @foreach (var project in PortfolioData.Projects)
+            {
+                <ProjectCard Project="project"/>
+            }
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2 style="margin-bottom:20px;">Experience</h2>
+        @foreach (var item in PortfolioData.Experience)
+        {
+            <TimelineRow Item="item"/>
+        }
+        <h3 style="margin:32px 0 12px;">Education</h3>
+        @foreach (var item in PortfolioData.Education)
+        {
+            <TimelineRow Item="item"/>
+        }
+    </section>
+
+    <section id="about" class="about-grid">
+        <div>
+            <h2 style="margin-bottom:14px;">@PortfolioData.Identity.AboutTitle</h2>
+            @foreach (var paragraph in PortfolioData.Identity.AboutParagraphs)
+            {
+                <p class="text-muted">@paragraph</p>
+            }
+        </div>
+        <div>
+            <h6 class="section-kicker" style="margin-bottom:12px;">Get in touch</h6>
+            <div class="contact-links">
+                @foreach (var link in PortfolioData.Identity.ContactLinks)
+                {
+                    <a href="@link.Url" target="_blank"><i class="@link.Icon"></i>@link.Label</a>
+                }
+            </div>
+        </div>
+    </section>
+
+    <SiteFooter/>
+
+</div>

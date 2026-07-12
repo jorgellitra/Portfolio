@@ -1,0 +1,59 @@
+@using Portfolio.Classes
+
+<div class="card elev-sm project-card" data-video-card
+     onmouseenter="portfolio.playVideo(this)" onmouseleave="portfolio.stopVideo(this)">
+    <div class="card-media">
+        @if (Project.HasVideo)
+        {
+            @if (Project.IsYouTube)
+            {
+                <div class="youtube-embed" data-youtube="@Project.YouTubeId">
+                    @if (Project.ImagePath is not null)
+                    {
+                        <img src="@Project.ImagePath" alt="@Project.Title"/>
+                    }
+                </div>
+            }
+            else if (Project.Orientation == VideoOrientation.Portrait)
+            {
+                <div class="portrait-wrap">
+                    <div class="portrait-crop">
+                        <video muted loop playsinline preload="metadata" src="@Project.VideoPath"></video>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <video class="landscape" muted loop playsinline preload="metadata"
+                       src="@Project.VideoPath" poster="@Project.ImagePath"></video>
+            }
+            <span class="play-hint">
+                <i class="ph ph-play"></i>
+                <span class="hover">Hover to play</span><span class="tap">Tap to play</span>
+            </span>
+        }
+        else if (Project.ImagePath is not null)
+        {
+            <img src="@Project.ImagePath" alt="@Project.Title"/>
+        }
+    </div>
+    <div class="card-info">
+        <span class="card-kicker">@Project.Kicker</span>
+        <span class="card-title">@Project.Title</span>
+        <p class="card-body">@Project.Description</p>
+        <div class="card-meta card-footer">
+            <span>@Project.Meta</span>
+            @if (Project.PageRoute is not null)
+            {
+                <a href="@Project.PageRoute">Learn more →</a>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+
+    [Parameter, EditorRequired]
+    public ProjectInfo Project { get; set; } = default!;
+
+}

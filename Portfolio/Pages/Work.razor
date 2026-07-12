@@ -1,0 +1,53 @@
+@page "/work"
+@using Portfolio.Classes
+
+<PageTitle>All projects | @PortfolioData.Identity.Name</PageTitle>
+
+<div class="page">
+
+    <SiteNav BackHref="/"/>
+
+    <header class="work-header">
+        <h6 class="section-kicker" style="margin-bottom:8px;">All projects</h6>
+        <h1>Everything I've built in Unity.</h1>
+        <p class="text-muted">
+            Shipped games and gameplay prototypes — from published mobile titles to networking,
+            procedural generation and systems experiments. Filter by focus below.
+        </p>
+    </header>
+
+    <div class="filters">
+        @foreach (var filter in PortfolioData.ProjectFilters)
+        {
+            <button class="filter-btn @(filter == _active ? "active" : "")"
+                    @onclick="() => _active = filter">
+                @filter
+            </button>
+        }
+    </div>
+
+    <section class="work-section">
+        <div class="projects-grid" style="--project-cols:3">
+            @foreach (var project in VisibleProjects)
+            {
+                <ProjectCard Project="project"/>
+            }
+        </div>
+    </section>
+
+    <SiteFooter BackHref="/"/>
+
+</div>
+
+@code {
+
+    private const string AllFilter = "All";
+
+    private string _active = AllFilter;
+
+    private IEnumerable<ProjectInfo> VisibleProjects =>
+        _active == AllFilter
+            ? PortfolioData.AllProjects
+            : PortfolioData.AllProjects.Where(p => p.Tags.Contains(_active));
+
+}
